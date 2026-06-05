@@ -9,11 +9,11 @@ redirect_from:
 
 <div class="intro-panel">
 <p>
-  Hi! Welcome to my homepage. I am a Ph.D. student and researcher interested in building secure and reliable software systems.
+  Hi! Welcome to my homepage. I am a Ph.D. student in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research focuses on building secure and reliable software systems.
 </p>
 
 <p>
-I received my B.S. degree from UNIST and am currently pursuing a Ph.D. in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research lies in software security, with a particular focus on vulnerability analysis and detection for Rust and C/C++ programs. I am especially interested in developing program analysis and fuzzing techniques to uncover memory safety vulnerabilities in real-world software systems.
+  I received my B.S. degree from UNIST. My research interests lie in software security, particularly vulnerability analysis and detection for Rust and C/C++ programs. I am especially interested in developing program analysis and fuzzing-based techniques to uncover memory safety vulnerabilities in real-world software systems.
 </p>
 </div>
 
@@ -61,10 +61,10 @@ I received my B.S. degree from UNIST and am currently pursuing a Ph.D. in Comput
 
   <article class="publication-card">
     <span class="publication-status">Published</span>
-    <h3 class="publication-title">ERASAN: Efficient Rust Address Sanitizer</h3>
+    <h3 class="publication-title">ERASAN: Efficient Rust Address Sanitizer <span class="publication-links">[ <a href="https://s2-lab.github.io/assets/erasan_S&amp;P_2024.pdf">paper</a> | <a href="https://s2-lab.github.io/assets/ERASan_S&amp;P24.pdf">slide</a> | <a href="https://github.com/S2-Lab/ERASan">code</a> ]</span></h3>
     <p class="publication-authors"><strong>Jiun Min*</strong>, Dongyeon Yu*, Seongyun Jeong, Dokyung Song, and Yuseok Jeon</p>
     <p class="publication-venue">IEEE Symposium on Security and Privacy (S&amp;P) 2024</p>
-    <p class="publication-note">*: co-first author</p>
+    <p class="publication-note">(*: co-first author)</p>
   </article>
 </div>
 
@@ -74,7 +74,7 @@ I received my B.S. degree from UNIST and am currently pursuing a Ph.D. in Comput
 <div class="info-card-list">
   <div class="info-card">
     <span class="info-card-year">2025</span>
-    <div><strong>Director’s Award</strong><br>2nd Prize, ICT Challenge</div>
+    <div><strong>IITP President's Award</strong> (2nd Prize), ICT Challenge 2025<br>Seongyun Jeong, Minseong Choi, Jiun Min<br><span class="info-card-detail">UNIST S2LAB Team, Project: AHA-Fuzz</span></div>
   </div>
   <div class="info-card">
     <span class="info-card-year">2024</span>
@@ -82,7 +82,7 @@ I received my B.S. degree from UNIST and am currently pursuing a Ph.D. in Comput
   </div>
   <div class="info-card">
     <span class="info-card-year">2024</span>
-    <div><strong>Minister’s Award</strong><br>1st Prize, ICT Challenge</div>
+    <div><strong>Minister of Science and ICT Award</strong> (1st Prize), ICT Challenge 2024<br>Jiun Min, Dongyeon Yu, Seongyun Jeong<br><span class="info-card-detail">UNIST S2LAB Team, Project: ERASAN</span></div>
   </div>
   <div class="info-card">
     <span class="info-card-year">2023</span>
