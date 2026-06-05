@@ -7,7 +7,24 @@ redirect_from:
   - /about.html
 ---
 
-<div class="intro-panel">
+<section class="profile-hero reveal-section">
+  <div class="profile-hero__eyebrow">Software Security Researcher</div>
+  <h1 class="profile-hero__title">Jiun Min</h1>
+  <p class="profile-hero__subtitle">Building secure and reliable software systems through program analysis and fuzzing.</p>
+  <div class="profile-hero__tags">
+    <span>Rust Security</span>
+    <span>Fuzzing</span>
+    <span>Program Analysis</span>
+    <span>Memory Safety</span>
+  </div>
+  <div class="profile-hero__actions">
+    <a href="mailto:jiunmin@korea.ac.kr">Email</a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    <a href="https://github.com/MJUCOM?tab=repositories">GitHub</a>
+  </div>
+</section>
+
+<div class="intro-panel reveal-section">
 <p>
   Hi! Welcome to my homepage. I am a Ph.D. student in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research focuses on building secure and reliable software systems.
 </p>
@@ -20,7 +37,7 @@ redirect_from:
 
 ## Education
 
-<div class="timeline-list">
+<div class="timeline-list reveal-section">
 <div class="timeline-item">
   <div class="timeline-date">09.2025 – Present</div>
   <div>
@@ -50,7 +67,7 @@ redirect_from:
 
 ## Publications
 
-<div class="publication-list">
+<div class="publication-list reveal-section">
   <article class="publication-card">
     <span class="publication-status">To appear</span>
     <h3 class="publication-title">RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety</h3>
@@ -61,7 +78,12 @@ redirect_from:
 
   <article class="publication-card">
     <span class="publication-status">Published</span>
-    <h3 class="publication-title">ERASAN: Efficient Rust Address Sanitizer <span class="publication-links">[ <a href="https://s2-lab.github.io/assets/erasan_S&amp;P_2024.pdf">paper</a> | <a href="https://s2-lab.github.io/assets/ERASan_S&amp;P24.pdf">slide</a> | <a href="https://github.com/S2-Lab/ERASan">code</a> ]</span></h3>
+    <h3 class="publication-title">ERASAN: Efficient Rust Address Sanitizer</h3>
+    <div class="publication-links">
+      <a href="https://s2-lab.github.io/assets/erasan_S&amp;P_2024.pdf">Paper</a>
+      <a href="https://s2-lab.github.io/assets/ERASan_S&amp;P24.pdf">Slide</a>
+      <a href="https://github.com/S2-Lab/ERASan">Code</a>
+    </div>
     <p class="publication-authors"><strong>Jiun Min*</strong>, Dongyeon Yu*, Seongyun Jeong, Dokyung Song, and Yuseok Jeon</p>
     <p class="publication-venue">IEEE Symposium on Security and Privacy (S&amp;P) 2024</p>
     <p class="publication-note">(*: co-first author)</p>
@@ -71,7 +93,7 @@ redirect_from:
 
 ## Awards
 
-<div class="info-card-list">
+<div class="info-card-list reveal-section">
   <div class="info-card">
     <span class="info-card-year">2025</span>
     <div><strong>IITP President's Award</strong> (2nd Prize), ICT Challenge 2025<br>Seongyun Jeong, Minseong Choi, Jiun Min<br><span class="info-card-detail">UNIST S2LAB Team, Project: AHA-Fuzz</span></div>
@@ -96,7 +118,7 @@ redirect_from:
 
 ## Teaching Assistant Experience
 
-<div class="info-card-list two-column">
+<div class="info-card-list two-column reveal-section">
   <div class="info-card">
     <span class="info-card-year">Fall 2023</span>
     <div><strong>Human-Computer Interaction (HCI)</strong></div>
