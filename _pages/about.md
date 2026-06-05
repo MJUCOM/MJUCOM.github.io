@@ -7,10 +7,6 @@ redirect_from:
   - /about.html
 ---
 
-
-
-Bless you for stopping by 🙌
-======
 Hi! Welcome to my homepage \
 I’m a researcher interested in building secure and reliable software systems. 
 
@@ -49,24 +45,25 @@ I received my B.S. degree from UNIST and am currently pursuing a combined M.S./P
 
 ## Publications
 
+**RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety** (to appear)  
+Dongyeon Yu\*, **Jiun Min\***, Yewan Na, Mijung Kim, Taegyu Kim, and Yuseok Jeon  
+*ACM Conference on Computer and Communications Security (CCS) 2026*  
+(\*: co-first author)
+
 **ERASAN: Efficient Rust Address Sanitizer** (2024)  
 **Jiun Min**, Dongyeon Yu, Seongyun Jeong, Dokyung Song, Yuseok Jeon (*co-first author*)  
 *IEEE Symposium on Security and Privacy (S&P 2024)*  
 [DOI: 10.1109/SP54263.2024.00182](https://doi.org/10.1109/SP54263.2024.00182)
 
 
-
-
 ## Awards
-
-- **Best Paper Award**, Journal of Information Security, 2022  
-- **Grand Prize**, Dongnam Hackathon, 2023  
-- **Minister’s Award**, ICT Challenge, 2024  
+- **Director’s Award**, 2nd Prize, ICT Challenge, 2025
 - **Student Grant Award**, IEEE Symposium on Security and Privacy (S&P), 2024  
-- **Director’s Award**, ICT Challenge, 2025
+- **Minister’s Award**, 1st Prize, ICT Challenge, 2024  
+- **Grand Prize**, Dongnam Hackathon, 2023  
+- **Best Paper Award**, Journal of Information Security, 2022  
 
-
-## Teaching Experience
+## Teaching Assistant Experience
 
 - **Human-Computer Interaction (HCI)** — Fall 2023  
 - **Computer Architecture** — Spring 2023  
