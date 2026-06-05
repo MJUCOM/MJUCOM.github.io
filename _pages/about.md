@@ -110,11 +110,11 @@ redirect_from:
   </div>
   <div class="info-card">
     <span class="info-card-year">2023</span>
-    <div><strong>Grand Prize</strong><br>Dongnam Hackathon</div>
+    <div><strong>Grand Prize (1st Prize) </strong><br>Dongnam Hackathon</div>
   </div>
   <div class="info-card">
     <span class="info-card-year">2022</span>
-    <div><strong>Best Paper Award</strong><br>Journal of Information Security</div>
+    <div><strong>Best Paper Award</strong><br>Korea Institute of Information Security and Cryptology (KIISC)</div>
   </div>
 </div>
 
