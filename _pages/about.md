@@ -10,10 +10,11 @@ redirect_from:
 <section class="profile-hero reveal-section">
   <div class="profile-hero__eyebrow">Software Security Researcher</div>
   <h1 class="profile-hero__title">Jiun Min</h1>
-  <p class="profile-hero__subtitle">Building secure and reliable software systems through program analysis and fuzzing.</p>
+  <p class="profile-hero__subtitle"> If you are reading this, something good is coming your way 🤙</p>
   <div class="profile-hero__tags">
     <span>Rust Security</span>
     <span>Fuzzing</span>
+    <span>Sanitizer</span>
     <span>Program Analysis</span>
     <span>Memory Safety</span>
   </div>
@@ -28,11 +29,11 @@ redirect_from:
 
 <div class="intro-panel reveal-section">
 <p>
-  Hi! Welcome to my homepage. I am a Ph.D. student in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research focuses on building secure and reliable software systems.
+  I am a Ph.D. student in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research focuses on building secure and reliable software systems.
 </p>
 
 <p>
-  I received my B.S. degree from UNIST. My research interests lie in software security, particularly vulnerability analysis and detection for Rust and C/C++ programs. I am especially interested in developing program analysis and fuzzing-based techniques to uncover memory safety vulnerabilities in real-world software systems.
+  My research interests lie in software security, particularly vulnerability analysis and detection for Rust and C/C++ programs. I am especially interested in developing program analysis and fuzzing-based techniques to uncover memory safety vulnerabilities in real-world software systems. I am pouring all my passion into submitting papers to top-tier conferences (CCS, NDSS, Usenix Security, IEEE S&P). 
 </p>
 </div>
 
