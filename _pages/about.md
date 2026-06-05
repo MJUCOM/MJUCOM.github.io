@@ -8,8 +8,13 @@ redirect_from:
 ---
 
 <div class="intro-panel">
-  <p>Hi! Welcome to my homepage. I’m a researcher interested in building secure and reliable software systems.</p>
-  <p>I received my B.S. degree from UNIST and am currently pursuing a combined M.S./Ph.D. program in Computer Science and Engineering at Korea University, advised by <strong>Yuseok Jeon</strong>. My research interests lie in software security, with a particular focus on vulnerability analysis and detection techniques for Rust and C/C++ programs. I am especially interested in developing analysis- and fuzzing-based approaches to uncover memory safety vulnerabilities in real-world systems.</p>
+<p>
+  Hi! Welcome to my homepage. I am a Ph.D. student and researcher interested in building secure and reliable software systems.
+</p>
+
+<p>
+I received my B.S. degree from UNIST and am currently pursuing a Ph.D. in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research lies in software security, with a particular focus on vulnerability analysis and detection for Rust and C/C++ programs. I am especially interested in developing program analysis and fuzzing techniques to uncover memory safety vulnerabilities in real-world software systems.
+</p>
 </div>
 
 
@@ -17,25 +22,25 @@ redirect_from:
 
 <div class="timeline-list">
 <div class="timeline-item">
-  <div class="timeline-date">Sept 2025 – Present</div>
+  <div class="timeline-date">09.2025 – Present</div>
   <div>
     <strong>M.S./Ph.D., Computer Science</strong><br>
     <em>Korea University</em>, Seoul, South Korea<br>
-    Advisor: <strong>Yuseok Jeon</strong>
+    Advisor: Yuseok Jeon
   </div>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">Mar 2023 – Aug 2025</div>
+  <div class="timeline-date">03.2023 – 08.2025</div>
   <div>
     <strong>M.S./Ph.D., Computer Science</strong><br>
     <em>Ulsan National Institute of Science and Technology (UNIST)</em>, Ulsan, South Korea<br>
-    Advisor: <strong>Yuseok Jeon</strong>
+    Advisor: Yuseok Jeon
   </div>
 </div>
 
 <div class="timeline-item">
-  <div class="timeline-date">Mar 2017 – Feb 2023</div>
+  <div class="timeline-date">03.2017 – 02.2023</div>
   <div>
     <strong>B.S., Computer Science</strong><br>
     <em>Ulsan National Institute of Science and Technology (UNIST)</em>, Ulsan, South Korea
@@ -65,15 +70,47 @@ redirect_from:
 
 
 ## Awards
-- **Director’s Award**, 2nd Prize, ICT Challenge, 2025
-- **Student Grant Award**, IEEE Symposium on Security and Privacy (S&P), 2024  
-- **Minister’s Award**, 1st Prize, ICT Challenge, 2024  
-- **Grand Prize**, Dongnam Hackathon, 2023  
-- **Best Paper Award**, Journal of Information Security, 2022  
+
+<div class="info-card-list">
+  <div class="info-card">
+    <span class="info-card-year">2025</span>
+    <div><strong>Director’s Award</strong><br>2nd Prize, ICT Challenge</div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2024</span>
+    <div><strong>Student Grant Award</strong><br>IEEE Symposium on Security and Privacy (S&amp;P)</div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2024</span>
+    <div><strong>Minister’s Award</strong><br>1st Prize, ICT Challenge</div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2023</span>
+    <div><strong>Grand Prize</strong><br>Dongnam Hackathon</div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2022</span>
+    <div><strong>Best Paper Award</strong><br>Journal of Information Security</div>
+  </div>
+</div>
 
 ## Teaching Assistant Experience
 
-- **Human-Computer Interaction (HCI)** — Fall 2023  
-- **Computer Architecture** — Spring 2023  
-- **Computer Networks** — Spring 2024  
-- **Computer Vision** — Fall 2024
+<div class="info-card-list two-column">
+  <div class="info-card">
+    <span class="info-card-year">Fall 2023</span>
+    <div><strong>Human-Computer Interaction (HCI)</strong></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">Spring 2023</span>
+    <div><strong>Computer Architecture</strong></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">Spring 2024</span>
+    <div><strong>Computer Networks</strong></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">Fall 2024</span>
+    <div><strong>Computer Vision</strong></div>
+  </div>
+</div>

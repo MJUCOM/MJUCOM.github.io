@@ -198,6 +198,43 @@
     font-size: 0.9em;
   }
 
+  .info-card-list {
+    display: grid;
+    gap: 0.9em;
+    margin: 1.25em 0 2.25em;
+  }
+
+  .info-card-list.two-column {
+    @include breakpoint($medium) {
+      grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+  }
+
+  .info-card {
+    display: grid;
+    grid-template-columns: minmax(86px, 112px) 1fr;
+    column-gap: 1em;
+    align-items: start;
+    padding: 0.95em 1.1em;
+    border: 1px solid var(--global-border-color);
+    border-left: 5px solid var(--global-link-color);
+    background: var(--global-bg-color);
+    box-shadow: 0 10px 24px rgba(49, 52, 54, 0.06);
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+  }
+
+  .info-card:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 16px 30px rgba(49, 52, 54, 0.1);
+    border-color: var(--global-link-color);
+  }
+
+  .info-card-year {
+    color: var(--global-link-color);
+    font-size: 0.88em;
+    font-weight: 700;
+  }
+
   @include breakpoint(max-width $medium) {
     .timeline-item {
       grid-template-columns: 1fr;
@@ -206,8 +243,14 @@
 
     .intro-panel,
     .publication-card,
+    .info-card,
     .timeline-item {
       padding: 1em;
+    }
+
+    .info-card {
+      grid-template-columns: 1fr;
+      row-gap: 0.3em;
     }
   }
 }
