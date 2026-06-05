@@ -52,6 +52,8 @@ author:
   codepen          : # Username
   dribbble         : # Username
   github           : "MJUCOM?tab=repositories"
+  cv               : "/cv/"
+  lab              : "https://s2-lab.github.io/members.html"
   kaggle           : # Username  
   stackoverflow    : # User number or user number and name (i.e., use "1" or "1/jeff-atwood")    
 

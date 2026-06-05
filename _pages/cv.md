@@ -9,56 +9,124 @@ redirect_from:
 
 {% include base_path %}
 
-Education
-======
-* Ph.D in Version Control Theory, GitHub University, 2018 (expected)
-* M.S. in Jekyll, GitHub University, 2014
-* B.S. in GitHub, GitHub University, 2012
+<section class="cv-panel reveal-section">
+  <div class="cv-panel__eyebrow">Curriculum Vitae</div>
+  <h1>Jiun Min</h1>
+  <p>Ph.D. student in Computer Science and Engineering at Korea University, advised by Yuseok Jeon. My research focuses on building secure and reliable software systems through program analysis and fuzzing.</p>
+  <div class="cv-contact-line">
+    <a href="mailto:jiunmin@korea.ac.kr">jiunmin@korea.ac.kr</a>
+    <a href="https://github.com/MJUCOM?tab=repositories">GitHub</a>
+    <a href="{{ site.author.googlescholar }}">Google Scholar</a>
+    <a href="https://s2-lab.github.io/members.html">S2 Lab</a>
+  </div>
+</section>
 
-Work experience
-======
-* Spring 2024: Academic Pages Collaborator
-  * GitHub University
-  * Duties includes: Updates and improvements to template
-  * Supervisor: The Users
+## Research Interests
 
-* Fall 2015: Research Assistant
-  * GitHub University
-  * Duties included: Merging pull requests
-  * Supervisor: Professor Hub
+<div class="info-card-list reveal-section">
+  <div class="info-card">
+    <span class="info-card-year">Areas</span>
+    <div>Software security, vulnerability analysis and detection, Rust memory safety, C/C++ program analysis, fuzzing-based testing, and real-world software reliability.</div>
+  </div>
+</div>
 
-* Summer 2015: Research Assistant
-  * GitHub University
-  * Duties included: Tagging issues
-  * Supervisor: Professor Git
-  
-Skills
-======
-* Skill 1
-* Skill 2
-  * Sub-skill 2.1
-  * Sub-skill 2.2
-  * Sub-skill 2.3
-* Skill 3
+## Education
 
-Publications
-======
-  <ul>{% for post in site.publications reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Talks
-======
-  <ul>{% for post in site.talks reversed %}
-    {% include archive-single-talk-cv.html  %}
-  {% endfor %}</ul>
-  
-Teaching
-======
-  <ul>{% for post in site.teaching reversed %}
-    {% include archive-single-cv.html %}
-  {% endfor %}</ul>
-  
-Service and leadership
-======
-* Currently signed in to 43 different slack teams
+<div class="timeline-list reveal-section">
+  <div class="timeline-item">
+    <div class="timeline-date">09.2025 - Present</div>
+    <div>
+      <strong>M.S./Ph.D., Computer Science</strong><br>
+      <em>Korea University</em>, Seoul, South Korea<br>
+      Advisor: Yuseok Jeon
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">03.2023 - 08.2025</div>
+    <div>
+      <strong>M.S./Ph.D., Computer Science</strong><br>
+      <em>Ulsan National Institute of Science and Technology (UNIST)</em>, Ulsan, South Korea<br>
+      Advisor: Yuseok Jeon
+    </div>
+  </div>
+
+  <div class="timeline-item">
+    <div class="timeline-date">03.2017 - 02.2023</div>
+    <div>
+      <strong>B.S., Computer Science</strong><br>
+      <em>Ulsan National Institute of Science and Technology (UNIST)</em>, Ulsan, South Korea
+    </div>
+  </div>
+</div>
+
+## Publications
+
+<div class="publication-list reveal-section">
+  <article class="publication-card">
+    <span class="publication-status">To appear</span>
+    <h3 class="publication-title">RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety</h3>
+    <p class="publication-authors">Dongyeon Yu*, <strong>Jiun Min*</strong>, Yewan Na, Mijung Kim, Taegyu Kim, and Yuseok Jeon</p>
+    <p class="publication-venue">ACM Conference on Computer and Communications Security (CCS) 2026</p>
+    <p class="publication-note">*: co-first author</p>
+  </article>
+
+  <article class="publication-card">
+    <span class="publication-status">Published</span>
+    <h3 class="publication-title">ERASAN: Efficient Rust Address Sanitizer</h3>
+    <div class="publication-links">
+      <a href="https://s2-lab.github.io/assets/erasan_S&amp;P_2024.pdf">Paper</a>
+      <a href="https://s2-lab.github.io/assets/ERASan_S&amp;P24.pdf">Slide</a>
+      <a href="https://github.com/S2-Lab/ERASan">Code</a>
+    </div>
+    <p class="publication-authors"><strong>Jiun Min*</strong>, Dongyeon Yu*, Seongyun Jeong, Dokyung Song, and Yuseok Jeon</p>
+    <p class="publication-venue">IEEE Symposium on Security and Privacy (S&amp;P) 2024</p>
+    <p class="publication-note">(*: co-first author)</p>
+  </article>
+</div>
+
+## Awards
+
+<div class="info-card-list reveal-section">
+  <div class="info-card">
+    <span class="info-card-year">2025</span>
+    <div><strong>IITP President's Award</strong> (2nd Prize), ICT Challenge 2025<br>Seongyun Jeong, Minseong Choi, Jiun Min<br><span class="info-card-detail">UNIST S2LAB Team, Project: AHA-Fuzz</span></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2024</span>
+    <div><strong>Student Grant Award</strong><br>IEEE Symposium on Security and Privacy (S&amp;P)</div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2024</span>
+    <div><strong>Minister of Science and ICT Award</strong> (1st Prize), ICT Challenge 2024<br>Jiun Min, Dongyeon Yu, Seongyun Jeong<br><span class="info-card-detail">UNIST S2LAB Team, Project: ERASAN</span></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2023</span>
+    <div><strong>Grand Prize</strong><br>Dongnam Hackathon</div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">2022</span>
+    <div><strong>Best Paper Award</strong><br>Journal of Information Security</div>
+  </div>
+</div>
+
+## Teaching Assistant Experience
+
+<div class="info-card-list two-column reveal-section">
+  <div class="info-card">
+    <span class="info-card-year">Fall 2023</span>
+    <div><strong>Human-Computer Interaction (HCI)</strong><br><span class="info-card-detail">Teaching Assistant</span></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">Spring 2023</span>
+    <div><strong>Computer Architecture</strong><br><span class="info-card-detail">Teaching Assistant</span></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">Spring 2024</span>
+    <div><strong>Computer Networks</strong><br><span class="info-card-detail">Teaching Assistant</span></div>
+  </div>
+  <div class="info-card">
+    <span class="info-card-year">Fall 2024</span>
+    <div><strong>Computer Vision</strong><br><span class="info-card-detail">Teaching Assistant</span></div>
+  </div>
+</div>

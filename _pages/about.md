@@ -21,6 +21,8 @@ redirect_from:
     <a href="mailto:jiunmin@korea.ac.kr">Email</a>
     <a href="{{ site.author.googlescholar }}">Google Scholar</a>
     <a href="https://github.com/MJUCOM?tab=repositories">GitHub</a>
+    <a href="{{ '/cv/' | relative_url }}">CV</a>
+    <a href="https://s2-lab.github.io/members.html">S2 Lab</a>
   </div>
 </section>
 
