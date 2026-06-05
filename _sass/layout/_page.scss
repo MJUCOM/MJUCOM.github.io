@@ -133,13 +133,13 @@
     margin: 0 0 2em;
     padding: 2em 2.1em;
     overflow: hidden;
-    color: #1f2b33;
-    border: 1px solid rgba(82, 173, 200, 0.24);
+    color: #2f3324;
+    border: 1px solid rgba(111, 114, 83, 0.26);
     border-radius: 8px;
     background:
-      linear-gradient(135deg, rgba(82, 173, 200, 0.16), rgba(255, 255, 255, 0.72) 48%, rgba(242, 243, 243, 0.92)),
+      linear-gradient(135deg, rgba(111, 114, 83, 0.16), rgba(255, 253, 250, 0.78) 48%, rgba(239, 238, 226, 0.9)),
       var(--global-bg-color);
-    box-shadow: 0 18px 42px rgba(49, 52, 54, 0.1);
+    box-shadow: 0 18px 42px rgba(67, 67, 47, 0.1);
   }
 
   .profile-hero::before {
@@ -184,12 +184,12 @@
 
   .profile-hero__tags span {
     padding: 0.34em 0.7em;
-    color: #39515d;
+    color: #55593e;
     font-size: 0.78em;
     font-weight: 700;
-    border: 1px solid rgba(82, 173, 200, 0.26);
+    border: 1px solid rgba(111, 114, 83, 0.28);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.68);
+    background: rgba(255, 253, 250, 0.72);
   }
 
   .profile-hero__actions {
@@ -207,16 +207,16 @@
     font-weight: 800;
     line-height: 1;
     text-decoration: none;
-    border: 1px solid rgba(82, 173, 200, 0.36);
+    border: 1px solid rgba(111, 114, 83, 0.38);
     border-radius: 999px;
-    background: rgba(255, 255, 255, 0.78);
+    background: rgba(255, 253, 250, 0.82);
     transition: transform 0.18s ease, border-color 0.18s ease, background 0.18s ease, box-shadow 0.18s ease;
   }
 
   .profile-hero__actions a:hover,
   .publication-links a:hover {
     transform: translateY(-1px);
-    color: #2d7f95;
+    color: #4f5538;
     text-decoration: none;
     border-color: var(--global-link-color);
     background: #fff;
@@ -226,11 +226,11 @@
   .intro-panel {
     margin-bottom: 2.25em;
     padding: 1.25em 1.35em;
-    border: 1px solid rgba(82, 173, 200, 0.2);
+    border: 1px solid rgba(111, 114, 83, 0.22);
     border-left: 4px solid var(--global-link-color);
     border-radius: 8px;
-    background: linear-gradient(135deg, rgba(82, 173, 200, 0.1), rgba(242, 243, 243, 0.72));
-    box-shadow: 0 12px 28px rgba(49, 52, 54, 0.06);
+    background: linear-gradient(135deg, rgba(111, 114, 83, 0.1), rgba(239, 238, 226, 0.72));
+    box-shadow: 0 12px 28px rgba(67, 67, 47, 0.06);
   }
 
   .intro-panel p {
@@ -255,14 +255,14 @@
     border: 1px solid var(--global-border-color);
     border-radius: 8px;
     background: var(--global-bg-color);
-    box-shadow: 0 8px 22px rgba(49, 52, 54, 0.05);
+    box-shadow: 0 8px 22px rgba(67, 67, 47, 0.05);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   }
 
   .timeline-item:hover {
     transform: translateY(-2px);
-    border-color: rgba(82, 173, 200, 0.42);
-    box-shadow: 0 14px 30px rgba(49, 52, 54, 0.09);
+    border-color: rgba(111, 114, 83, 0.42);
+    box-shadow: 0 14px 30px rgba(67, 67, 47, 0.09);
   }
 
   .timeline-date {
@@ -283,13 +283,13 @@
     border-left: 5px solid var(--global-link-color);
     border-radius: 8px;
     background: var(--global-bg-color);
-    box-shadow: 0 12px 28px rgba(49, 52, 54, 0.08);
+    box-shadow: 0 12px 28px rgba(67, 67, 47, 0.08);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   }
 
   .publication-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 18px 34px rgba(49, 52, 54, 0.12);
+    box-shadow: 0 18px 34px rgba(67, 67, 47, 0.12);
     border-color: var(--global-link-color);
   }
 
@@ -302,8 +302,8 @@
     font-weight: 700;
     letter-spacing: 0;
     text-transform: uppercase;
-    border: 1px solid rgba(82, 173, 200, 0.35);
-    background: rgba(82, 173, 200, 0.09);
+    border: 1px solid rgba(111, 114, 83, 0.35);
+    background: rgba(111, 114, 83, 0.09);
   }
 
   .publication-title {
@@ -356,13 +356,13 @@
     border-left: 5px solid var(--global-link-color);
     border-radius: 8px;
     background: var(--global-bg-color);
-    box-shadow: 0 10px 24px rgba(49, 52, 54, 0.06);
+    box-shadow: 0 10px 24px rgba(67, 67, 47, 0.06);
     transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
   }
 
   .info-card:hover {
     transform: translateY(-2px);
-    box-shadow: 0 16px 30px rgba(49, 52, 54, 0.1);
+    box-shadow: 0 16px 30px rgba(67, 67, 47, 0.1);
     border-color: var(--global-link-color);
   }
 
