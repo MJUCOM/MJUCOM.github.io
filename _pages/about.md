@@ -110,7 +110,7 @@ redirect_from:
   </div>
   <div class="info-card">
     <span class="info-card-year">2023</span>
-    <div><strong>Grand Prize (1st Prize) </strong><br>Dongnam Hackathon</div>
+    <div><strong>Grand Prize</strong> (1st Prize), Dongnam Hackathon<br>Jiun Min, Dongyeon Yu, Wonil Jang<br><span class="info-card-detail">Team BattleShip</span></div>
   </div>
   <div class="info-card">
     <span class="info-card-year">2022</span>
