@@ -7,16 +7,17 @@ redirect_from:
   - /about.html
 ---
 
-Hi! Welcome to my homepage \
-I’m a researcher interested in building secure and reliable software systems. 
-
-I received my B.S. degree from UNIST and am currently pursuing a combined M.S./Ph.D. program in Computer Science and Engineering at Korea University. My research interests lie in software security, with a particular focus on vulnerability analysis and detection techniques for Rust and C/C++ programs. I am especially interested in developing analysis- and fuzzing-based approaches to uncover memory safety vulnerabilities in real-world systems.
+<div class="intro-panel">
+  <p>Hi! Welcome to my homepage. I’m a researcher interested in building secure and reliable software systems.</p>
+  <p>I received my B.S. degree from UNIST and am currently pursuing a combined M.S./Ph.D. program in Computer Science and Engineering at Korea University, advised by <strong>Yuseok Jeon</strong>. My research interests lie in software security, with a particular focus on vulnerability analysis and detection techniques for Rust and C/C++ programs. I am especially interested in developing analysis- and fuzzing-based approaches to uncover memory safety vulnerabilities in real-world systems.</p>
+</div>
 
 
 ## Education
 
-<div style="display: grid; grid-template-columns: 180px auto; column-gap: 24px; margin-bottom: 1.2em;">
-  <div><strong>Sept 2025 – Present</strong></div>
+<div class="timeline-list">
+<div class="timeline-item">
+  <div class="timeline-date">Sept 2025 – Present</div>
   <div>
     <strong>M.S./Ph.D., Computer Science</strong><br>
     <em>Korea University</em>, Seoul, South Korea<br>
@@ -24,8 +25,8 @@ I received my B.S. degree from UNIST and am currently pursuing a combined M.S./P
   </div>
 </div>
 
-<div style="display: grid; grid-template-columns: 180px auto; column-gap: 24px; margin-bottom: 1.2em;">
-  <div><strong>Mar 2023 – Aug 2025</strong></div>
+<div class="timeline-item">
+  <div class="timeline-date">Mar 2023 – Aug 2025</div>
   <div>
     <strong>M.S./Ph.D., Computer Science</strong><br>
     <em>Ulsan National Institute of Science and Technology (UNIST)</em>, Ulsan, South Korea<br>
@@ -33,27 +34,34 @@ I received my B.S. degree from UNIST and am currently pursuing a combined M.S./P
   </div>
 </div>
 
-<div style="display: grid; grid-template-columns: 180px auto; column-gap: 24px;">
-  <div><strong>Mar 2017 – Feb 2023</strong></div>
+<div class="timeline-item">
+  <div class="timeline-date">Mar 2017 – Feb 2023</div>
   <div>
     <strong>B.S., Computer Science</strong><br>
     <em>Ulsan National Institute of Science and Technology (UNIST)</em>, Ulsan, South Korea
   </div>
 </div>
-
-
+</div>
 
 ## Publications
 
-**RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety** (to appear)  
-Dongyeon Yu\*, **Jiun Min\***, Yewan Na, Mijung Kim, Taegyu Kim, and Yuseok Jeon  
-*ACM Conference on Computer and Communications Security (CCS) 2026*  
-(\*: co-first author)
+<div class="publication-list">
+  <article class="publication-card">
+    <span class="publication-status">To appear</span>
+    <h3 class="publication-title">RustGo: Fairly Directed Greybox Fuzzing for Enforcing Rust Memory Safety</h3>
+    <p class="publication-authors">Dongyeon Yu*, <strong>Jiun Min*</strong>, Yewan Na, Mijung Kim, Taegyu Kim, and Yuseok Jeon</p>
+    <p class="publication-venue">ACM Conference on Computer and Communications Security (CCS) 2026</p>
+    <p class="publication-note">*: co-first author</p>
+  </article>
 
-**ERASAN: Efficient Rust Address Sanitizer** (2024)  
-**Jiun Min**, Dongyeon Yu, Seongyun Jeong, Dokyung Song, Yuseok Jeon (*co-first author*)  
-*IEEE Symposium on Security and Privacy (S&P 2024)*  
-[DOI: 10.1109/SP54263.2024.00182](https://doi.org/10.1109/SP54263.2024.00182)
+  <article class="publication-card">
+    <span class="publication-status">Published</span>
+    <h3 class="publication-title">ERASAN: Efficient Rust Address Sanitizer</h3>
+    <p class="publication-authors"><strong>Jiun Min*</strong>, Dongyeon Yu*, Seongyun Jeong, Dokyung Song, and Yuseok Jeon</p>
+    <p class="publication-venue">IEEE Symposium on Security and Privacy (S&amp;P) 2024</p>
+    <p class="publication-note">*: co-first author</p>
+  </article>
+</div>
 
 
 ## Awards
